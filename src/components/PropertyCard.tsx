@@ -44,15 +44,15 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
         <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-100">
           <div className="flex items-center gap-2 text-charcoal/70">
             <Bed className="w-4 h-4 text-gold" />
-            <span className="text-xs font-medium">{property.beds} <span className="hidden sm:inline">Beds</span></span>
+            <span className="text-xs font-medium">{property.beds} <span className="hidden sm:inline">Спальни</span></span>
           </div>
           <div className="flex items-center gap-2 text-charcoal/70">
             <Bath className="w-4 h-4 text-gold" />
-            <span className="text-xs font-medium">{property.baths} <span className="hidden sm:inline">Baths</span></span>
+            <span className="text-xs font-medium">{property.baths} <span className="hidden sm:inline">Ванные</span></span>
           </div>
           <div className="flex items-center gap-2 text-charcoal/70">
             <Square className="w-4 h-4 text-gold" />
-            <span className="text-xs font-medium">{property.sqft} <span className="hidden sm:inline">sqft</span></span>
+            <span className="text-xs font-medium">{property.sqft} <span className="hidden sm:inline">м²</span></span>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
           to={`/properties/${property.id}`}
           className="mt-6 w-full flex items-center justify-center gap-2 py-3 border border-charcoal/10 rounded-xl text-sm font-bold text-charcoal hover:bg-charcoal hover:text-white transition-all duration-300"
         >
-          View Details
+          Подробнее
         </Link>
       </div>
     </motion.div>

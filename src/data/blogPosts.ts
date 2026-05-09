@@ -12,33 +12,33 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    title: 'How to Prepare for Your First Luxury Home Purchase',
+    title: 'Как подготовиться к покупке первой элитной недвижимости',
     category: 'Buying',
-    date: 'May 15, 2024',
+    date: '15 мая, 2024',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800',
-    excerpt: 'Navigating the luxury real estate market requires a different set of strategies and considerations than standard home buying...',
-    content: 'Long form content about buying luxury homes...',
-    author: 'Sarah Jenkins'
+    excerpt: 'Навигация по рынку элитной недвижимости требует особого подхода и учета множества факторов, отличных от стандартной покупки...',
+    content: 'Длинный контент о покупке элитного жилья...',
+    author: 'Айгерим Смагулова'
   },
   {
     id: '2',
-    title: 'The Hidden Costs of Selling a High-Value Property',
+    title: 'Скрытые расходы при продаже дорогой недвижимости в Алматы',
     category: 'Selling',
-    date: 'April 22, 2024',
+    date: '22 апреля, 2024',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800',
-    excerpt: 'Selling your home involves more than just setting a price. Understanding the full financial picture is crucial for a smooth transaction...',
-    content: 'Long form content about selling costs...',
-    author: 'Michael Chen'
+    excerpt: 'Продажа дома — это больше, чем просто установка цены. Понимание полной финансовой картины критично для успешной сделки...',
+    content: 'Контент о расходах при продаже...',
+    author: 'Тимур Касымов'
   },
   {
     id: '3',
-    title: 'Real Estate Market Trends to Watch in Q3 2024',
+    title: 'Тренды рынка недвижимости Алматы в 2024 году',
     category: 'Market Insights',
-    date: 'March 10, 2024',
+    date: '10 марта, 2024',
     image: 'https://images.unsplash.com/photo-1460472178825-e5240623abe5?auto=format&fit=crop&q=80&w=800',
-    excerpt: 'As interest rates stabilize, new patterns are emerging in luxury markets across the United States. Here is what you need to know...',
-    content: 'Long form content about market insights...',
-    author: 'Emma Rodriguez'
+    excerpt: 'Рынок Алматы показывает новые паттерны развития в премиальном сегменте. Вот что вам нужно знать сегодня...',
+    content: 'Контент о трендах рынка...',
+    author: 'Динара Альжанова'
   }
 ];
 
@@ -53,23 +53,23 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Alexandra Vance',
-    role: 'Home Buyer',
-    content: 'The team at LuxeEstate didn\'t just find me a house; they found me a lifestyle. Their attention to detail and market knowledge is unmatched.',
+    name: 'Александра Ким',
+    role: 'Покупатель дома',
+    content: 'Команда Almaty Luxe не просто нашла мне дом; они нашли мне стиль жизни. Внимание к деталям и знание рынка просто поразительны.',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150'
   },
   {
     id: '2',
-    name: 'David Thompson',
-    role: 'Property Investor',
-    content: 'I\'ve worked with many realtors, but the professionalism and investment guidance I received here was on another level. Highly recommended.',
+    name: 'Данияр Ибрагимов',
+    role: 'Инвестор',
+    content: 'Я работал со многими риелторами, но уровень профессионализма и инвестиционных советов здесь на другом уровне. Рекомендую.',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150'
   },
   {
     id: '3',
-    name: 'Julianne Moore',
-    role: 'Home Seller',
-    content: 'Selling my estate was a complex process, but they made it look easy. The marketing strategy was brilliant and result spoke for itself.',
+    name: 'Юлия Моренко',
+    role: 'Продавец недвижимости',
+    content: 'Продажа моего поместья была сложным процессом, но они сделали это легко. Маркетинговая стратегия была великолепной.',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150'
   }
 ];

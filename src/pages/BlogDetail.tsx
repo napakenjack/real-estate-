@@ -15,8 +15,8 @@ const BlogDetail = () => {
   if (!post) {
     return (
       <div className="pt-40 pb-20 px-6 text-center">
-        <h2 className="text-3xl font-serif font-bold mb-4 text-center">Article Not Found</h2>
-        <Link to="/blog" className="text-gold font-bold">Back to blog</Link>
+        <h2 className="text-3xl font-serif font-bold mb-4 text-center">Статья не найдена</h2>
+        <Link to="/blog" className="text-gold font-bold">Вернуться в журнал</Link>
       </div>
     );
   }
@@ -25,16 +25,16 @@ const BlogDetail = () => {
 
   return (
     <div className="pt-24 pb-20 bg-white">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-6 text-center">
         {/* Breadcrumb */}
-        <Link to="/blog" className="flex items-center gap-2 text-gray-400 hover:text-charcoal mb-12 transition-colors text-sm font-medium uppercase tracking-widest mt-8">
+        <Link to="/blog" className="inline-flex items-center gap-2 text-gray-400 hover:text-charcoal mb-12 transition-colors text-sm font-medium uppercase tracking-widest mt-8">
           <ChevronLeft className="w-4 h-4" />
-          The Journal
+          Журнал
         </Link>
 
         {/* Header */}
         <header className="mb-16">
-          <div className="flex items-center gap-4 text-xs font-bold uppercase tracking-widest text-gold mb-6">
+          <div className="flex items-center justify-center gap-4 text-xs font-bold uppercase tracking-widest text-gold mb-6">
              <span>{post.category}</span>
              <span className="w-1 h-1 bg-gray-300 rounded-full"></span>
              <span className="text-gray-400">{post.date}</span>
@@ -47,9 +47,9 @@ const BlogDetail = () => {
                 <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-charcoal">
                    <User className="w-6 h-6" />
                 </div>
-                <div>
+                <div className="text-left">
                    <span className="block font-bold text-charcoal">{post.author}</span>
-                   <span className="text-xs text-gray-400 uppercase tracking-widest">Senior Analyst</span>
+                   <span className="text-xs text-gray-400 uppercase tracking-widest">Старший Аналитик</span>
                 </div>
              </div>
              <div className="flex gap-4">
@@ -66,36 +66,36 @@ const BlogDetail = () => {
         </div>
 
         {/* Content */}
-        <div className="prose prose-lg max-w-none prose-serif mb-20 text-gray-600 leading-relaxed font-light">
+        <div className="prose prose-lg max-w-none prose-serif mb-20 text-gray-600 leading-relaxed font-light text-center">
            <p className="text-2xl font-serif text-charcoal mb-8 italic leading-relaxed">
              {post.excerpt}
            </p>
            <p className="mb-6">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Рынок элитной недвижимости Алматы продолжает демонстрировать устойчивость и рост. В этом обзоре мы рассматриваем ключевые факторы, влияющие на выбор покупателей в премиальном сегменте и даем практические советы по инвестированию.
            </p>
            
-           <h3 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">The Strategic Approach</h3>
-           <p className="mb-6 text-center">
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+           <h3 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Стратегический Подход</h3>
+           <p className="mb-6">
+             Мы верим, что каждая покупка должна быть обоснована глубоким анализом. В Almaty Luxe мы используем передовые инструменты оценки для обеспечения выгоды наших клиентов.
            </p>
            
-           <div className="bg-gray-50 border-l-4 border-gold p-8 my-12 rounded-r-3xl">
+           <div className="bg-gray-50 border-l-4 border-gold p-8 my-12 rounded-r-3xl text-center">
               <p className="font-serif italic text-xl text-charcoal mb-0">
-                 "Investing in luxury property is not just about real estate; it's about acquiring an asset that reflects your legacy and lifestyle."
+                 "Инвестиции в элитную недвижимость — это не просто квадратные метры; это приобретение актива, отражающего ваше наследие и образ жизни."
               </p>
            </div>
 
            <p className="mb-6">
-             Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+             Наши эксперты всегда готовы предоставить индивидуальную консультацию и помочь вам найти объект, который идеально соответствует вашим ожиданиям.
            </p>
         </div>
 
         {/* Related Posts */}
         <div className="pt-20 border-t border-gray-100">
            <div className="flex justify-between items-end mb-12">
-              <h3 className="text-3xl font-serif font-bold text-charcoal">Recommended Reading</h3>
+              <h3 className="text-3xl font-serif font-bold text-charcoal">Рекомендуемое чтение</h3>
               <Link to="/blog" className="text-gold font-bold flex items-center gap-2 hover:translate-x-1 transition-transform">
-                 All Articles <ArrowRight className="w-5 h-5" />
+                 Все статьи <ArrowRight className="w-5 h-5" />
               </Link>
            </div>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

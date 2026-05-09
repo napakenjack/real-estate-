@@ -54,7 +54,7 @@ function App() {
 const ContactCTA = () => (
   <div className="flex gap-2">
     <a 
-      href="https://wa.me/15550123456" 
+      href="https://wa.me/77273456789" 
       className="flex-1 bg-white border border-gray-100 shadow-2xl py-4 rounded-2xl flex items-center justify-center gap-2 font-bold text-charcoal text-sm backdrop-blur-md"
     >
       <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@ const ContactCTA = () => (
       to="/contact" 
       className="flex-[1.5] bg-charcoal shadow-2xl py-4 rounded-2xl flex items-center justify-center gap-2 font-bold text-white text-sm"
     >
-      Book Consultation
+      Запись на консультацию
     </Link>
   </div>
 );

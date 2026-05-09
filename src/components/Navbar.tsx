@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [lang, setLang] = useState('RU');
   const location = useLocation();
 
   useEffect(() => {
@@ -22,13 +23,13 @@ const Navbar = () => {
   }, [location]);
 
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'Properties', path: '/properties' },
-    { name: 'Buy', path: '/buy' },
-    { name: 'Sell', path: '/sell' },
-    { name: 'About', path: '/about' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'Главная', path: '/' },
+    { name: 'Объекты', path: '/properties' },
+    { name: 'Купить', path: '/buy' },
+    { name: 'Продать', path: '/sell' },
+    { name: 'О нас', path: '/about' },
+    { name: 'Блог', path: '/blog' },
+    { name: 'Контакты', path: '/contact' },
   ];
 
   return (
@@ -40,7 +41,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="text-2xl font-serif font-bold tracking-tighter text-charcoal">
-          LUXE<span className="text-gold">ESTATE</span>
+          ALMATY<span className="text-gold">LUXE</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -57,14 +58,21 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
+          <button 
+            onClick={() => setLang(lang === 'RU' ? 'EN' : 'RU')}
+            className="text-sm font-bold text-charcoal/60 hover:text-gold transition-colors px-2 border-l border-gray-200"
+          >
+            {lang}
+          </button>
           <Link
             to="/contact"
             className="bg-charcoal text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-gold transition-colors flex items-center gap-2 group"
           >
-            Book Consultation
+            Консультация
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
+
 
         {/* Mobile Toggle */}
         <button
@@ -94,15 +102,24 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
+              <div className="flex justify-between items-center py-4 border-b border-gray-100">
+                <span className="text-xl font-serif font-medium text-charcoal">Язык / Language</span>
+                <button 
+                  onClick={() => setLang(lang === 'RU' ? 'EN' : 'RU')}
+                  className="text-gold font-bold text-xl"
+                >
+                  {lang}
+                </button>
+              </div>
               <Link
                 to="/contact"
                 className="bg-charcoal text-white w-full py-4 rounded-xl text-center font-medium text-lg mt-4"
               >
-                Book Consultation
+                Консультация
               </Link>
               <div className="flex items-center gap-3 text-gray-500 mt-8">
                 <Phone className="w-5 h-5" />
-                <span className="font-medium">+1 (555) 012-3456</span>
+                <span className="font-medium">+7 (727) 345-67-89</span>
               </div>
             </div>
           </motion.div>

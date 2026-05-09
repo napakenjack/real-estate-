@@ -19,10 +19,10 @@ const Properties = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">
-          <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Curated Portfolio</h2>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-charcoal mb-6">Explore Luxury <span className="italic">Residences</span></h1>
+          <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Наше Портфолио</h2>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-charcoal mb-6">Исследуйте <span className="italic">Элитные Резиденции</span></h1>
           <p className="text-gray-500 text-lg max-w-2xl leading-relaxed">
-            Browse through our exclusive selection of high-end properties in the most desirable neighborhoods.
+            Посмотрите нашу эксклюзивную подборку высококлассной недвижимости в самых востребованных районах Алматы.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ const Properties = () => {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
             <input
               type="text"
-              placeholder="Search by location, title..."
+              placeholder="Поиск по локации, названию..."
               className="w-full bg-gray-50 border-none rounded-2xl py-4 pl-12 pr-4 outline-none focus:ring-1 focus:ring-gold"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -46,18 +46,18 @@ const Properties = () => {
                 value={filterType}
                 onChange={(e) => setFilterType(e.target.value)}
               >
-                <option value="All">All Types</option>
-                <option value="Luxury">Luxury</option>
-                <option value="Residential">Residential</option>
-                <option value="Penthouse">Penthouse</option>
-                <option value="Commercial">Commercial</option>
+                <option value="All">Все типы</option>
+                <option value="Luxury">Люкс</option>
+                <option value="Residential">Жилые</option>
+                <option value="Penthouse">Пентхаусы</option>
+                <option value="Commercial">Коммерческие</option>
               </select>
               <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
             </div>
 
             <button className="bg-charcoal text-white flex items-center justify-center gap-3 px-8 py-4 rounded-2xl font-bold hover:bg-gold hover:text-charcoal transition-all">
               <SlidersHorizontal className="w-5 h-5" />
-              Advanced
+              Фильтры
             </button>
           </div>
         </div>
@@ -76,23 +76,23 @@ const Properties = () => {
                 <Search className="w-10 h-10" />
               </div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-charcoal mb-2">No Properties Found</h3>
-            <p className="text-gray-500">Try adjusting your filters or search query to find more results.</p>
+            <h3 className="text-2xl font-serif font-bold text-charcoal mb-2">Объекты не найдены</h3>
+            <p className="text-gray-500">Попробуйте изменить параметры фильтра или поисковый запрос.</p>
             <button
               onClick={() => { setSearchQuery(''); setFilterType('All'); }}
               className="mt-6 text-gold font-bold hover:underline"
             >
-              Clear all filters
+              Сбросить все фильтры
             </button>
           </div>
         )}
 
         {/* Final CTA */}
         <div className="mt-32 text-center p-16 bg-white rounded-[3rem] shadow-sm border border-gray-100">
-           <h3 className="text-3xl font-serif font-bold text-charcoal mb-6">Didn't find what you are looking for?</h3>
-           <p className="text-gray-500 max-w-xl mx-auto mb-10">Our agents have access to many off-market luxury listings that are not publicly displayed on our website.</p>
+           <h3 className="text-3xl font-serif font-bold text-charcoal mb-6">Не нашли то, что искали?</h3>
+           <p className="text-gray-500 max-w-xl mx-auto mb-10">У наших агентов есть доступ ко многим внерыночным предложениям элитного жилья, которые не выставлены публично на сайте.</p>
            <button className="bg-charcoal text-white px-10 py-4 rounded-full font-bold hover:bg-gold transition-all">
-              Request VIP Access
+              Запросить VIP доступ
            </button>
         </div>
       </div>

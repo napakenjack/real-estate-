@@ -8,10 +8,10 @@ const Contact = () => {
       {/* Header */}
       <section className="py-20 px-6 bg-charcoal text-white rounded-b-[4rem]">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-6">Concierge Support</h2>
-          <h1 className="text-4xl md:text-7xl font-serif font-bold mb-8">Get In <span className="italic text-gold">Touch</span></h1>
+          <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-6">Консьерж-сервис</h2>
+          <h1 className="text-4xl md:text-7xl font-serif font-bold mb-8">Свяжитесь с <span className="italic text-gold">нами</span></h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-light">
-            Our specialized agents are ready to assist you with every aspect of your premium property journey.
+            Наши специализированные агенты готовы помочь вам в каждом аспекте вашего пути в мире элитной недвижимости.
           </p>
         </div>
       </section>
@@ -21,9 +21,9 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
           {/* Info Side */}
           <div>
-            <h2 className="text-3xl font-serif font-bold text-charcoal mb-8">Contact Information</h2>
+            <h2 className="text-3xl font-serif font-bold text-charcoal mb-8">Контактная информация</h2>
             <p className="text-gray-500 text-lg mb-12 font-light leading-relaxed">
-              Visit our headquarters in Beverly Hills or reach out via phone or email. We are available for private consultations worldwide.
+              Посетите наш флагманский офис в Алматы или свяжитесь с нами по телефону или электронной почте. Мы доступны для частных консультаций.
             </p>
 
             <div className="space-y-10">
@@ -32,18 +32,18 @@ const Contact = () => {
                      <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                     <h4 className="text-lg font-bold text-charcoal mb-1">Our Office</h4>
-                     <p className="text-gray-500 font-light">123 Luxury Drive, Beverly Hills, CA 90210</p>
+                     <h4 className="text-lg font-bold text-charcoal mb-1">Наш Офис</h4>
+                     <p className="text-gray-500 font-light">пр. Аль-Фараби, БЦ "Нурлы Тау", Алматы, Казахстан</p>
                   </div>
                </div>
 
-               <div className="flex gap-6 text-center">
+               <div className="flex gap-6">
                   <div className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center shrink-0 border border-gray-100 text-gold shadow-sm">
                      <Phone className="w-6 h-6" />
                   </div>
                   <div>
-                     <h4 className="text-lg font-bold text-charcoal mb-1">Phone</h4>
-                     <p className="text-gray-500 font-light">+1 (555) 012-3456</p>
+                     <h4 className="text-lg font-bold text-charcoal mb-1">Телефон</h4>
+                     <p className="text-gray-500 font-light">+7 (727) 345-67-89</p>
                   </div>
                </div>
 
@@ -52,24 +52,24 @@ const Contact = () => {
                      <Mail className="w-6 h-6" />
                   </div>
                   <div>
-                     <h4 className="text-lg font-bold text-charcoal mb-1">Email</h4>
-                     <p className="text-gray-500 font-light">hello@luxeestate.com</p>
+                     <h4 className="text-lg font-bold text-charcoal mb-1">Электронная почта</h4>
+                     <p className="text-gray-500 font-light">info@almatyluxe.kz</p>
                   </div>
                </div>
 
-               <div className="flex gap-6 text-center">
+               <div className="flex gap-6">
                   <div className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center shrink-0 border border-gray-100 text-gold shadow-sm">
                      <Clock className="w-6 h-6" />
                   </div>
                   <div>
-                     <h4 className="text-lg font-bold text-charcoal mb-1">Working Hours</h4>
-                     <p className="text-gray-500 font-light">Mon - Fri: 9:00 AM - 6:00 PM <br/> Sat: 10:00 AM - 4:00 PM</p>
+                     <h4 className="text-lg font-bold text-charcoal mb-1">Часы работы</h4>
+                     <p className="text-gray-500 font-light">Пн - Пт: 9:00 - 18:00 <br/> Сб: 10:00 - 16:00</p>
                   </div>
                </div>
             </div>
 
             <div className="mt-16">
-               <h4 className="text-sm font-bold uppercase tracking-widest text-charcoal mb-6">Follow Us</h4>
+               <h4 className="text-sm font-bold uppercase tracking-widest text-charcoal mb-6">Мы в соцсетях</h4>
                <div className="flex gap-4">
                   <a href="#" className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gold hover:text-white transition-all"><Instagram className="w-5 h-5" /></a>
                   <a href="#" className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gold hover:text-white transition-all"><Linkedin className="w-5 h-5" /></a>
@@ -99,10 +99,10 @@ const Contact = () => {
                  <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center text-white mb-4">
                     <MapPin className="w-8 h-8" />
                  </div>
-                 <h4 className="text-xl font-serif font-bold text-charcoal">Beverly Hills HQ</h4>
-                 <p className="text-gray-500 font-light text-sm mt-2">123 Luxury Drive, Beverly Hills, CA 90210</p>
+                 <h4 className="text-xl font-serif font-bold text-charcoal">Офис Almaty Luxe</h4>
+                 <p className="text-gray-500 font-light text-sm mt-2">пр. Аль-Фараби, БЦ "Нурлы Тау", Алматы</p>
                  <button className="mt-6 text-gold font-bold flex items-center gap-2 hover:underline">
-                    Get Directions
+                    Проложить маршрут
                  </button>
               </div>
            </div>

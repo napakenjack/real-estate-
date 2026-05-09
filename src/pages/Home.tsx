@@ -34,42 +34,42 @@ const Home = () => {
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-px bg-gold"></div>
-              <span className="text-gold font-bold uppercase tracking-[0.3em] text-sm">Luxury Real Estate</span>
+              <span className="text-gold font-bold uppercase tracking-[0.3em] text-sm">Элитная Недвижимость</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-serif font-bold leading-tight mb-8">
-              Find Your Perfect Property With <span className="italic text-gold">Trusted</span> Experts
+              Найдите свою идеальную недвижимость с <span className="italic text-gold">проверенными</span> экспертами
             </h1>
             <p className="text-xl text-gray-200 mb-10 max-w-lg leading-relaxed font-light">
-              Helping elite clients buy, sell, and invest in the most exclusive premium properties across the globe.
+              Помогаем элитным клиентам покупать, продавать и инвестировать в самые эксклюзивные объекты премиум-класса в Алматы.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
               <Link
                 to="/properties"
                 className="bg-gold text-charcoal px-10 py-5 rounded-full font-bold text-lg hover:bg-white transition-all flex items-center justify-center gap-2 group shadow-xl"
               >
-                View Properties
+                Смотреть объекты
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/contact"
                 className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-charcoal transition-all flex items-center justify-center gap-2"
               >
-                Book Consultation
+                Консультация
               </Link>
             </div>
 
             <div className="mt-20 grid grid-cols-3 gap-8">
               <div>
                 <span className="block text-3xl font-serif font-bold text-gold">10+</span>
-                <span className="text-sm font-medium text-gray-300 uppercase tracking-widest leading-loose">Years Experience</span>
+                <span className="text-sm font-medium text-gray-300 uppercase tracking-widest leading-loose">Лет опыта</span>
               </div>
               <div>
                 <span className="block text-3xl font-serif font-bold text-gold">500+</span>
-                <span className="text-sm font-medium text-gray-300 uppercase tracking-widest leading-loose">Properties Sold</span>
+                <span className="text-sm font-medium text-gray-300 uppercase tracking-widest leading-loose">Объектов продано</span>
               </div>
               <div>
                 <span className="block text-3xl font-serif font-bold text-gold">99%</span>
-                <span className="text-sm font-medium text-gray-300 uppercase tracking-widest leading-loose">Trusted Clients</span>
+                <span className="text-sm font-medium text-gray-300 uppercase tracking-widest leading-loose">Довольных клиентов</span>
               </div>
             </div>
           </motion.div>
@@ -81,11 +81,11 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div className="max-w-xl">
-              <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Curated Selection</h2>
-              <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal">Featured Residences</h3>
+              <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Тщательный отбор</h2>
+              <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal">Избранные Резиденции</h3>
             </div>
             <Link to="/properties" className="text-charcoal font-bold flex items-center gap-2 hover:text-gold transition-colors group border-b-2 border-charcoal/10 pb-1">
-              Explore All Listings
+              Весь каталог
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -113,10 +113,10 @@ const Home = () => {
               />
             </div>
             <div className="relative z-10">
-              <h3 className="text-4xl font-serif font-bold text-white mb-6">Looking to Buy?</h3>
-              <p className="text-gray-300 text-lg mb-8 max-w-sm">Find your dream home in our curated catalog of elite residences worldwide.</p>
+              <h3 className="text-4xl font-serif font-bold text-white mb-6">Хотите купить?</h3>
+              <p className="text-gray-300 text-lg mb-8 max-w-sm">Найдите дом своей мечты в нашем каталоге элитных резиденций.</p>
               <Link to="/buy" className="bg-white text-charcoal px-8 py-4 rounded-full font-bold hover:bg-gold transition-colors inline-block">
-                Start Your Search
+                Начать поиск
               </Link>
             </div>
           </motion.div>
@@ -133,10 +133,10 @@ const Home = () => {
               />
             </div>
             <div className="relative z-10">
-              <h3 className="text-4xl font-serif font-bold text-charcoal mb-6">Planning to Sell?</h3>
-              <p className="text-charcoal/80 text-lg mb-8 max-w-sm">Get the maximum value for your property with our expert marketing strategies.</p>
+              <h3 className="text-4xl font-serif font-bold text-charcoal mb-6">Планируете продать?</h3>
+              <p className="text-charcoal/80 text-lg mb-8 max-w-sm">Получите максимальную стоимость за свой объект с нашей маркетинговой стратегией.</p>
               <Link to="/sell" className="bg-charcoal text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-charcoal transition-colors inline-block">
-                Value Your Property
+                Оценить объект
               </Link>
             </div>
           </motion.div>
@@ -147,20 +147,20 @@ const Home = () => {
       <section className="py-32 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4 font-sans">Our Advantage</h2>
+            <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4 font-sans">Наши преимущества</h2>
             <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal leading-tight">
-              Why Discerning Clients Trust LuxeEstate
+              Почему клиенты выбирают Almaty Luxe
             </h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {[
-              { icon: Map, title: 'Local Market Expertise', desc: 'Deep insights into neighborhoods and developing property values.' },
-              { icon: ShieldCheck, title: 'Verified Listings', desc: 'Every property undergoes a rigorous verification for your peace of mind.' },
-              { icon: Star, title: 'Investment Guidance', desc: 'Data-driven advice to maximize your real estate portfolio ROI.' },
-              { icon: Users, title: 'Expert Negotiation', desc: 'Professional advocacy to ensure you get the absolute best price.' },
-              { icon: MessageSquare, title: 'Fast Communication', desc: 'Real-time updates and seamless coordination throughout the process.' },
-              { icon: TrendingUp, title: 'End-to-End Support', desc: 'From first viewing to final legal paperwork, we handle everything.' },
+              { icon: Map, title: 'Знание рынка Алматы', desc: 'Глубокое понимание специфики районов и динамики цен на недвижимость.' },
+              { icon: ShieldCheck, title: 'Проверенные объекты', desc: 'Каждый объект проходит строгую проверку для вашего спокойствия.' },
+              { icon: Star, title: 'Инвестиционные советы', desc: 'Профессиональные консультации для максимизации доходности вашего портфеля.' },
+              { icon: Users, title: 'Мастера переговоров', desc: 'Ваши интересы — наш приоритет. Обеспечиваем лучшие условия сделки.' },
+              { icon: MessageSquare, title: 'Оперативность', desc: 'Постоянная связь и бесшовное взаимодействие на всех этапах.' },
+              { icon: TrendingUp, title: 'Полное сопровождение', desc: 'От первого просмотра до финального оформления документов.' },
             ].map((feature, i) => (
               <motion.div
                 key={i}
@@ -185,25 +185,25 @@ const Home = () => {
        <section className="py-32 px-6 bg-charcoal text-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-20">
-            <h3 className="text-4xl md:text-5xl font-serif font-bold mb-6">Popular Neighbourhoods</h3>
+            <h3 className="text-4xl md:text-5xl font-serif font-bold mb-6">Престижные Районы</h3>
             <p className="text-gray-400 max-w-xl mx-auto text-lg leading-relaxed">
-              Explore the most sought-after locations where lifestyle and luxury converge.
+              Узнайте больше о самых востребованных локациях Алматы.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: 'Beverly Hills', count: 12, img: 'https://images.unsplash.com/photo-1542332213-9b5a5a3fab35?auto=format&fit=crop&q=80&w=600' },
-              { name: 'Manhattan', count: 24, img: 'https://images.unsplash.com/photo-1496871455396-14e56815f1f4?auto=format&fit=crop&q=80&w=600' },
-              { name: 'Miami Beach', count: 18, img: 'https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?auto=format&fit=crop&q=80&w=600' },
-              { name: 'Aspen Hills', count: 8, img: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=600' },
+              { name: 'Медеуский', count: 12, img: 'https://images.unsplash.com/photo-1542332213-9b5a5a3fab35?auto=format&fit=crop&q=80&w=600' },
+              { name: 'Бостандыкский', count: 24, img: 'https://images.unsplash.com/photo-1496871455396-14e56815f1f4?auto=format&fit=crop&q=80&w=600' },
+              { name: 'Центр города', count: 18, img: 'https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?auto=format&fit=crop&q=80&w=600' },
+              { name: 'Верхние районы', count: 8, img: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=600' },
             ].map((area, i) => (
               <Link to="/properties" key={i} className="group relative aspect-[3/4] overflow-hidden rounded-[2.5rem] block">
                 <img src={area.img} alt={area.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/20 to-transparent"></div>
                 <div className="absolute bottom-8 left-8">
-                  <h4 className="text-2xl font-serif font-bold mb-2">{area.name}</h4>
-                  <span className="text-xs font-bold uppercase tracking-widest text-gold">{area.count} Properties</span>
+                  <h4 className="text-2xl font-serif font-bold mb-2">{area.name} район</h4>
+                  <span className="text-xs font-bold uppercase tracking-widest text-gold">{area.count} объектов</span>
                 </div>
               </Link>
             ))}
@@ -215,8 +215,8 @@ const Home = () => {
       <section className="py-32 px-6 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Client Experience</h2>
-            <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal">Voice of Happiness</h3>
+            <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Отзывы клиентов</h2>
+            <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal">Истории успеха</h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -232,11 +232,11 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-end mb-16 px-4">
             <div>
-              <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Insights</h2>
-              <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal">Latest Articles</h3>
+              <h2 className="text-gold font-bold uppercase tracking-[0.2em] text-sm mb-4">Инсайты</h2>
+              <h3 className="text-4xl md:text-5xl font-serif font-bold text-charcoal">Последние статьи</h3>
             </div>
             <Link to="/blog" className="text-charcoal font-bold flex items-center gap-2 hover:text-gold transition-colors group hidden md:flex">
-              View All News
+              Все новости
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -258,10 +258,10 @@ const Home = () => {
 
           <div className="relative z-10">
             <h2 className="text-4xl md:text-6xl font-serif font-bold text-white leading-tight mb-8">
-              Ready to Make Your <span className="text-gold italic">Next Move?</span>
+              Готовы к <span className="text-gold italic">новому шагу?</span>
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light">
-              Whether you are looking to buy, sell, or invest, our specialized agents are here to guide you every step of the way.
+              Ищете ли вы покупку, продажу или инвестиции, наши специалисты готовы направить вас на каждом этапе пути.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <button className="bg-gold text-charcoal px-8 py-4 rounded-full font-bold flex items-center gap-3 hover:bg-white transition-all">
@@ -270,10 +270,10 @@ const Home = () => {
               </button>
               <Link to="/contact" className="bg-white text-charcoal px-8 py-4 rounded-full font-bold flex items-center gap-3 hover:bg-gold transition-all">
                 <Phone className="w-5 h-5" />
-                Book Consultation
+                Консультация
               </Link>
               <Link to="/properties" className="border border-white/20 text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-all">
-                View Properties
+                Смотреть объекты
               </Link>
             </div>
           </div>
