@@ -95,7 +95,7 @@ export const properties: Property[] = [
     agent: {
       name: 'Тимур Касымов',
       role: 'Эксперт городской недвижимости',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200',
+      image: 'https://plus.unsplash.com/premium_photo-1776286130119-35577420205b?q=80&w=1470&auto=format&fit=crop',
       phone: '+7 (702) 234-5678',
       email: 'timur@almatyluxe.kz'
     }
