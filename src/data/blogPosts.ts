@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Тренды рынка недвижимости Алматы в 2024 году',
     category: 'Market Insights',
     date: '10 марта, 2024',
-    image: 'https://images.unsplash.com/photo-1460472178825-e5240623abe5?auto=format&fit=crop&q=80&w=800',
+    image: 'https://plus.unsplash.com/premium_photo-1775916826723-282643085e34?q=80&w=1470&auto=format&fit=crop',
     excerpt: 'Рынок Алматы показывает новые паттерны развития в премиальном сегменте. Вот что вам нужно знать сегодня...',
     content: 'Контент о трендах рынка...',
     author: 'Динара Альжанова'
