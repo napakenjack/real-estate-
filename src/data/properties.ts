@@ -89,7 +89,7 @@ export const properties: Property[] = [
     baths: 2,
     sqft: 180,
     type: 'Luxury',
-    image: 'https://images.unsplash.com/photo-1600607687940-4e524cb35a36?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://plus.unsplash.com/premium_photo-1776286130119-35577420205b?q=80&w=1470&auto=format&fit=crop',
     description: 'Идеальное сочетание истории и современного люкса в самом сердце старого центра города.',
     features: ['Кирпичные стены', 'Кухня шеф-повара', 'Умное освещение', 'Студия йоги'],
     agent: {
