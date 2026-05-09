@@ -107,7 +107,7 @@ const Home = () => {
           >
             <div className="absolute inset-0 z-0 opacity-40 group-hover:opacity-50 transition-opacity">
               <img
-                src="https://images.unsplash.com/photo-1600585154526-990dcea464dd?auto=format&fit=crop&q=80&w=800"
+                src="https://images.unsplash.com/photo-1740258662768-b46a3f3f0c06?q=80&w=1470&auto=format&fit=crop"
                 alt="Buying"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
               />
@@ -127,7 +127,7 @@ const Home = () => {
           >
             <div className="absolute inset-0 z-0 opacity-40 group-hover:opacity-50 transition-opacity">
               <img
-                src="https://images.unsplash.com/photo-1600607687940-4e524cb35a36?auto=format&fit=crop&q=80&w=800"
+                src="https://images.unsplash.com/photo-1505843513577-22bb7d21e455?q=80&w=1932&auto=format&fit=crop"
                 alt="Selling"
                 className="w-full h-full object-cover transition-all duration-700"
               />
@@ -193,7 +193,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: 'Медеуский', count: 12, img: 'https://images.unsplash.com/photo-1542332213-9b5a5a3fab35?auto=format&fit=crop&q=80&w=600' },
+              { name: 'Медеуский', count: 12, img: 'https://images.unsplash.com/photo-1697290111814-3af7bef90a8b?q=80&w=1470&auto=format&fit=crop' },
               { name: 'Бостандыкский', count: 24, img: 'https://images.unsplash.com/photo-1496871455396-14e56815f1f4?auto=format&fit=crop&q=80&w=600' },
               { name: 'Центр города', count: 18, img: 'https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?auto=format&fit=crop&q=80&w=600' },
               { name: 'Верхние районы', count: 8, img: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=600' },
